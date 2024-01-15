@@ -160,3 +160,26 @@
 }
 
 
+
+
+
+
+/* footer */
+
+.foot{
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 402px;
+}
+.f-tittle{
+    text-align: center;
+    padding-top: 8.4rem;
+}
+.fp{
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
