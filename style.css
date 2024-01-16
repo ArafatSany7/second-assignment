@@ -532,4 +532,68 @@ hr{
         margin: 1rem;
     }
 
+    .destination>h2 {
+        width: 400px;
+        margin-left: 11rem;
+    }
+
+    .destination>p {
+        width: 500px;
+        margin-left: 8rem;
+    }
+
+    .first-destination-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: stretch;
+    }
+    .second-destination-row{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+    .third-destination-row{
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        width: 750px;
+        height: 900px;
+    }
+
+    .div1, .div0{
+        flex-direction: column;
+    }
+
+
+    .why-we-sec{
+        width: 850px;
+    }
+
+    .ds1,.ds2 ,.div2{
+        width: 100%;
+        left: 0;
+    }
+
+    .lm1{
+        padding-bottom: 1rem;
+        width: 800px;
+        flex-direction: column;
+    }
+    .last-div{
+        flex-direction: column;
+        width: 800px;
+        height: 100vh;
+    }
+    .container,.container2{
+        width: 100%;
+        height: 100%;
+    }
+
+    .foot{
+        width: 850px;
+    }
+
+    .nav-menu > li{
+        display: none;
+    }
+
 }
