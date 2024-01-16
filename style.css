@@ -330,10 +330,125 @@
     position: relative;
     left: 25%;
 }
-
-
 /* why we end */
 
+
+
+/* last main start */
+.lm1>.l1s1>ul>button{
+    background-color: var(--primary-color);
+    justify-content: center;
+    gap: 1rem;
+    color: #FFF;
+    border: 0;
+    border-radius: 0.4rem;
+}
+
+.lm1{
+    padding-bottom: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.l1s2{
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 40089.png');
+    background-position: center;
+    background-size: cover;
+    width: 610px;
+    height: 424px;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.ls2n1{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+#simple{
+    color: #131318;
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height:3.7rem;
+}
+
+
+.container {
+    width: 50%;
+    padding: 1.2rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+}
+  
+.container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.4rem;
+}
+  
+  
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input {
+    padding: 0.6rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 0.4rem;
+}
+  
+.container button {
+    padding: 0.6rem;
+    background-color:var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.last-div{
+    display: flex;
+}
+
+.container2{
+    border-radius: 16px;
+    background: url('Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.lo{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    width:13rem;
+    height: 5rem;
+    transform: rotate(-19.628deg);
+}
+  
+.lo1{
+    text-align: center;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.lo2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FFF;
+}
+
+
+/* last main end */
 
 /* footer */
 .why-we-sec{
@@ -342,7 +457,7 @@
 .foot{
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
-    height: 402px;
+    height: 30rem;
 }
 .f-tittle{
     text-align: center;
