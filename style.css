@@ -36,14 +36,14 @@
     color: var(--primary-color);
 }
 
-.nav_menu {
+.nav-menu {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav_menu > li {
+.nav-menu > li {
     list-style: none;
 }
 
@@ -52,7 +52,7 @@
     font-weight: 700;
 }
 
-.nav_menu > li > a {
+.nav-menu > li > a {
     color: var(--common-color);
     text-decoration: none;
     font-size: 1.4rem;
@@ -71,20 +71,20 @@
     border-radius: 1.6rem;
 }
 
-.b_title {
+.b-title {
     font-size: 6.4rem;
     font-weight: 800;
 }
 
-.b_title,
-.banner_description {
+.b-title,
+.banner-description {
     color: #FFF;
     text-align: center;
     font-style: 400;
     font-weight: 400;
 }
 
-.banner_description {
+.banner-description {
     width: 85%;
     font-size: 1.6rem;
     line-height: 2.6rem;
@@ -92,7 +92,7 @@
     padding: 0 25rem;
 }
 
-.banner_options {
+.banner-options {
     background-color: #ffffff57;
     border-radius: 0.8rem;
     padding: 1.6rem;
@@ -102,8 +102,8 @@
     margin: auto;
 }
 
-.banner_options>.option,
-.banner_options>button {
+.banner-options>.option,
+.banner-options>button {
     border-radius: 0.8rem;
     font-size: 1.6rem;
     font-style: 400;
@@ -114,19 +114,19 @@
     border: 0;
 }
 
-.banner_options>.option {
+.banner-options>.option {
     background-color: #fff;
     justify-content: space-between;
 }
 
-.banner_options>button {
+.banner-options>button {
     background-color: var(--primary-color);
     justify-content: center;
     gap: 1rem;
     color: #FFF;
 }
 
-.banner_options>.option>p {
+.banner-options>.option>p {
     color: var(--common-color);
     font-weight: 400;
 }
@@ -178,13 +178,13 @@
     text-align: center;
 }
 
-.destination_container {
+.destination-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.first_destination_row {
+.first-destination-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.4rem;
@@ -214,7 +214,7 @@
     align-items: center;
 }
 
-.second_destination_row {
+.second-destination-row {
     display: grid;
     grid-template-columns: 1.5fr 2fr 1fr;
     gap: 1.4rem;
@@ -232,7 +232,7 @@
     align-items: center;
 }
 
-.north_america {
+.north-america {
     background:url('Images/Rectangle\ 7.png');
     background-position: center;
     background-size: cover;
@@ -256,7 +256,7 @@
     align-items: center;
 }
 
-.third_destination_row {
+.third-destination-row {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
     gap: 1.4rem;
@@ -286,7 +286,7 @@
     align-items: center;
 }
 
-.country_name {
+.country-name {
     color: #FFF;
     font-size: 2.8rem;
     font-style: 400;
@@ -425,6 +425,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
+    position: relative;
 }
 
 .lo{
@@ -433,8 +434,13 @@
     width:13rem;
     height: 5rem;
     transform: rotate(-19.628deg);
+    position: absolute;
+   
 }
-  
+.temp{
+    padding-top: 13rem;
+    padding-left: 23rem;
+}
 .lo1{
     text-align: center;
     font-weight: 400;
@@ -470,4 +476,60 @@
 hr{
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
+}
+
+
+
+
+
+/* responsive section */
+
+
+@media screen and (max-width:600px){
+    .nav1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .brand, .nav-menu {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-menu > li > a {
+        font-size: 1rem;
+    }
+    .banner{
+        width: 800px;
+    }
+    .banner-description{
+        padding: 0;
+
+    }
+    .banner-options{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column;
+        width: max-content;
+        padding-left: 0;
+        margin: 0;
+    }
+    .md1{
+        text-align: justify;
+        font-size: 4rem;
+        padding-bottom: 3rem;
+    }
+    .res1{
+        width: 800px;
+        padding-right: 50px;
+    }
+    .destination {
+        margin: 1rem;
+    }
+
 }
