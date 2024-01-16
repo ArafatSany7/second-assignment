@@ -1,6 +1,9 @@
+
+
 * {
     margin: 0.6rem;
     box-sizing: border-box;
+    font-family: mulish;
 }
 
 :root {
@@ -160,12 +163,182 @@
 }
 
 
+/* destination start */
+.destination {
+    margin: 8rem 0;
+}
+
+.destination>h2 {
+    text-align: center;
+}
+
+.destination>p {
+    margin: 2.4rem auto 5rem;
+    width: 42.5%;
+    text-align: center;
+}
+
+.destination_container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.first_destination_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+}
+
+.maldives {
+    background:url('Images/Rectangle\ 5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indonesia {
+    background:url('Images/Rectangle\ 8.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_destination_row {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    gap: 1.4rem;
+}
+
+.srilanka {
+    background:url('Images/Rectangle\ 6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.north_america {
+    background:url('Images/Rectangle\ 7.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kashmir {
+    background:url('Images/Rectangle\ 9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_destination_row {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 1.4rem;
+}
+
+.bangladesh {
+    background:url('Images/Rectangle\ 11.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandarban {
+    background:url('Images/Rectangle\ 10.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_name {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-style: 400;
+    font-weight: 800;
+}
+
+/* destination end */
+
+/* why we start */
+.ds1{
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+}
+
+.ds2{
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 50%;
+}
+
+.div1 , .div0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div2{
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.div2{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
 
 
+/* why we end */
 
 
 /* footer */
-
+.why-we-sec{
+    padding-bottom: 2rem;
+}
 .foot{
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
